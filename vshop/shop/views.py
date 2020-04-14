@@ -9,6 +9,10 @@ from .settings.base import *
 class IndexView(View):
 
     def get(self, request):
+
+        # for k, v in request.COOKIES.items():
+        #     print(k, v)
+
         return render(request, 'shop/index.html', {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
                                                    'contacts': CONTACTS, 'address': ADDRESS})

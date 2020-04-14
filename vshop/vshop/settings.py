@@ -104,7 +104,17 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
+
+LANGUAGES = (
+    ('ru', 'Russian'),
+    ('en', 'English')
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'shop/locale/'),
+)
+
 
 TIME_ZONE = 'UTC'
 
