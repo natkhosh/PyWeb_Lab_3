@@ -3,6 +3,7 @@ from django.views.generic import View
 from django.http import HttpResponse
 from .settings.base import *
 
+
 # Create your views here.
 
 
