@@ -22,4 +22,15 @@ class IndexView(View):
 class ShopView(View):
 
     def get(self, request):
-        return render(request, 'shop/shop.html')
+        return render(request, 'shop/shop.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
+                                                   'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
+                                                   'contacts': CONTACTS, 'address': ADDRESS})
+
+
+class WishlistView(View):
+
+    def get(self, request):
+        return render(request, 'shop/wishlist.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
+                                                   'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
+                                                   'contacts': CONTACTS, 'address': ADDRESS})
+

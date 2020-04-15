@@ -5,8 +5,9 @@ from .views import *
 
 
 urlpatterns = [
-    path('', IndexView.as_view()),
-    path('shop/', ShopView.as_view(), name='shop')
+    path('', IndexView.as_view(),  name='home'),
+    path('shop/', ShopView.as_view(), name='shop'),
+    path('wishlist/', WishlistView.as_view(), name='wishlist'),
 ]
 
 # urlpatterns = [
