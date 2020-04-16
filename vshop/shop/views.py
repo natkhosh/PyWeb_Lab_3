@@ -1,8 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import View
 from django.http import HttpResponse
 from .settings.base import *
-
+from django.core.paginator import Paginator
+from django.urls import reverse
 
 # Create your views here.
 
@@ -21,8 +22,9 @@ class IndexView(View):
 
 class ShopView(View):
 
-    def get(self, request):
-        products = [{'name': 'Bell Pepper',
+    def get(self, request, page_id=0):
+        page_id += 1
+        products_list = [{'name': 'Bell Pepper',
                      'image': 'shop/images/product-1.jpg',
                      'price': '$120.00',
                      'discount': '30%',
@@ -65,6 +67,12 @@ class ShopView(View):
                      'image': 'shop/images/product-12.jpg',
                      'price': '$120.00'}]
 
+        paginator = Paginator(products_list, 4)
+
+        try:
+            products = paginator.page(page_id)
+        except:
+            return redirect(reverse('shop'))
         return render(request, 'shop/shop.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
                                                    'contacts': CONTACTS, 'address': ADDRESS, 'products': products})
