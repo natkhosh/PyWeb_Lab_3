@@ -22,8 +22,8 @@ class IndexView(View):
 
 class ShopView(View):
 
-    def get(self, request, page_id=0):
-        page_id += 1
+    def get(self, request, page_id=1):
+
         products_list = [{'name': 'Bell Pepper',
                      'image': 'shop/images/product-1.jpg',
                      'price': '$120.00',
@@ -71,6 +71,7 @@ class ShopView(View):
 
         try:
             products = paginator.page(page_id)
+            products.num_pages_tuple = tuple(range(paginator.num_pages))
         except:
             return redirect(reverse('shop'))
         return render(request, 'shop/shop.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,

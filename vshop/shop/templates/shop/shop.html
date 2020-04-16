@@ -73,21 +73,38 @@
 
     		</div>
     		<div class="row mt-5">
+
+
+          {% if products.paginator.num_pages > 1 %}
           <div class="col text-center">
             <div class="block-27">
               <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
+				{% if products.has_previous %}
+                <li><a href="{% url 'shop' %}{{ products.previous_page_number }}">&lt;</a></li>
+				{% endif %}
+				
+				
+				{% for _ in products.num_pages_tuple %}
+				
+				{% if forloop.counter != products.number %}
+                    <li><a href="{% url 'shop' %}{{ forloop.counter }}">{{ forloop.counter }}</a></li>
+				{% else %}
+                    <li class="active"><span>{{ forloop.counter }}</span></li>
+				{% endif %}
+
+				{% endfor %}
+				
+				{% if products.has_next %}
+                <li><a href="{% url 'shop' %}{{ products.next_page_number}}">&gt;</a></li>
+				{% endif %}
               </ul>
             </div>
           </div>
+          {% endif %}
+		  
         </div>
     	</div>
     </section>
+
 
 {% endblock %}
