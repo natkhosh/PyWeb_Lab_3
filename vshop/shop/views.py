@@ -41,3 +41,11 @@ class CartView(View):
         return render(request, 'shop/cart.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
                                                    'contacts': CONTACTS, 'address': ADDRESS})
+
+
+class ContactView(View):
+
+    def get(self, request):
+        return render(request, 'shop/contact.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
+                                                   'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
+                                                   'contacts': CONTACTS, 'address': ADDRESS, 'website': WEBSITE})

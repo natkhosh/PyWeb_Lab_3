@@ -12,6 +12,8 @@ E_MAIL = 'veganbestfood@gmail.com'
 
 TITLE = 'Veganbestfood'
 
+WEBSITE = "veganbestfood.com"
+
 if settings.LANG == 'ru':
     ABOUT = 'Веганство - это практика воздержания от использования продуктов животного происхождения и ' \
             'связанная с этим философия, которая отвергает товарный статус животных.'
