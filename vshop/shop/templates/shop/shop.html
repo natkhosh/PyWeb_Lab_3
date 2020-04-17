@@ -35,14 +35,18 @@
 
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="/static/{{product.image }}" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid" src="/uploads/{{product.image }}" alt="Colorlib Template">
     						{% if product.discount %}
                                 <span class="status">{{ product.discount }}</span>
                             {% endif %}
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
+                        {% if lang_ == 'ru' %}
+                            <h3><a href="#">{{ product.name_ru}}</a></h3>
+                        {% else %}
     						<h3><a href="#">{{ product.name}}</a></h3>
+                        {% endif %}
     						<div class="d-flex">
     							<div class="pricing">
                                     {% if product.discount  %}

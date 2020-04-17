@@ -2,9 +2,9 @@ from django.conf.global_settings import *
 
 from vshop import settings
 
-# print('@@@@@', settings.LANG)
-# #
-# # print('%%%%%%%%%%', LANGUAGE_CODE)
+if settings.LANG == 'ru':
+    LANG_RU = settings.LANG
+
 
 PHONE_NUMBER = '+7 (812) 555-55-55'
 

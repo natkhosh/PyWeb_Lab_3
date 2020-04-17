@@ -5,6 +5,13 @@ from .settings.base import *
 from django.core.paginator import Paginator
 from django.urls import reverse
 from .models import *
+from vshop import settings
+
+
+lang_ = settings.LANG
+
+
+
 
 # Create your views here.
 
@@ -24,6 +31,7 @@ class IndexView(View):
 class ShopView(View):
 
     def get(self, request, page_id=1):
+
 
         # products_list = [{'name': 'Bell Pepper',
         #              'image': 'shop/images/product-1.jpg',
@@ -79,7 +87,7 @@ class ShopView(View):
             return redirect(reverse('shop'))
         return render(request, 'shop/shop.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
-                                                   'contacts': CONTACTS, 'address': ADDRESS, 'products': products})
+                                                   'contacts': CONTACTS, 'address': ADDRESS, 'products': products, 'lang_': lang_})
 
 
 class WishlistView(View):
