@@ -118,43 +118,43 @@ class BlogView(View):
 
     def get(self, request):
 
-        a_pple = [{'date': 'July 20, 2019',
-                  'image': 'shop/images/image_1.jpg',
+        a_bloge = [{'date': 'July 20, 2019',
+                  'image': '/static/shop/images/image_1.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
                   'details': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,'
                              ' there live the blind texts.'},
                   {'date': 'July 20, 2019',
-                  'image': 'shop/images/image_2.jpg',
+                  'image': '/static/shop/images/image_2.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
                   'details': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,'
                              ' there live the blind texts.'},
                   {'date': 'July 20, 2019',
-                  'image': 'shop/images/image_3.jpg',
+                  'image': '/static/shop/images/image_3.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
                   'details': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,'
                              ' there live the blind texts.'},
                   {'date': 'July 20, 2019',
-                  'image': 'shop/images/image_4.jpg',
+                  'image': '/static/shop/images/image_4.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
                   'details': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,'
                              ' there live the blind texts.'},
                   {'date': 'July 20, 2019',
-                  'image': 'shop/images/image_5.jpg',
+                  'image': '/static/shop/images/image_5.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
                   'details': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,'
                              ' there live the blind texts.'},
                   {'date': 'July 20, 2019',
-                  'image': 'shop/images/image_6.jpg',
+                  'image': '/static/shop/images/image_6.jpg',
                   'author': 'Admin',
                   'comment_number': '3',
                   'header': 'Even the all-powerful Pointing has no control about the blind texts',
@@ -164,4 +164,4 @@ class BlogView(View):
 
         return render(request, 'shop/blog.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
-                                                   'contacts': CONTACTS, 'address': ADDRESS, 'a_pple': a_pple})
+                                                   'contacts': CONTACTS, 'address': ADDRESS, 'a_bloge': a_bloge})

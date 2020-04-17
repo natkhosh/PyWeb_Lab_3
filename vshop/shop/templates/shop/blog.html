@@ -22,7 +22,7 @@
           <div class="col-lg-8 ftco-animate">
               <div class="row">
 
-                  {% for a in a_pple %}
+                  {% for a in a_bloge %}
 
                   <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
@@ -35,8 +35,9 @@
 		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> {{a.comment_number}}</a></div>
 		                </div>
 		                <h3 class="heading"><a href="#">{{a.header}}</a></h3>
-		                <p> {{ a.details }}<p>
-                          <a href="blog-single.html" class="btn btn-primary py-2 px-3">{% trans 'Read more' %}</a></p>
+		                <p> {% blocktrans %}  {{ a.details }} {% endblocktrans %}
+                             </p>
+		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">{% trans 'Read more' %}</a></p>
 		              </div>
 		            </div>
 		          </div>
