@@ -101,9 +101,22 @@ class WishlistView(View):
 class CartView(View):
 
     def get(self, request):
+
+        cart_ = [{'name': 'Green Beans',
+                  'image': '/static/shop/images/product-3.jpg',
+                  'price': '$4.90',
+                  'total': '$4.90',
+                  'details': 'Far far away, behind the word mountains, far from the Russia ...'},
+                 {'name': 'Purple Cabbage',
+                  'image': '/static/shop/images/product-4.jpg',
+                  'price': '$15.70',
+                  'total': '$4.90',
+                  'details': 'Far far away, behind the word mountains, far from the Russia ...'}
+                 ]
+
         return render(request, 'shop/cart.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
-                                                   'contacts': CONTACTS, 'address': ADDRESS})
+                                                   'contacts': CONTACTS, 'address': ADDRESS, 'cart_': cart_})
 
 
 class ContactView(View):
