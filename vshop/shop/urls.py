@@ -11,6 +11,7 @@ urlpatterns = [
     path('wishlist/', WishlistView.as_view(), name='wishlist'),
     path('cart/', CartView.as_view(), name='cart'),
     path('contact/', ContactView.as_view(), name='contact'),
+    path('blog/', BlogView.as_view(), name='blog'),
 ]
 
 # urlpatterns = [
