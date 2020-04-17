@@ -1,0 +1,558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 21:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\shop\templates\shop\base.html:63 .\shop\templates\shop\base.html:140
+#: .\shop\templates\shop\contact.html:61 .\shop\templates\shop\contact.html:176
+msgid "Menu"
+msgstr "Menu"
+
+#: .\shop\templates\shop\base.html:68 .\shop\templates\shop\contact.html:66
+#: .\shop\templates\shop\contact.html:92 .\shop\templates\shop\shop.html:12
+#: .\shop\templates\shop\wishlist.html:12
+msgid "HomePage"
+msgstr "Home"
+
+#: .\shop\templates\shop\base.html:70 .\shop\templates\shop\base.html:72
+#: .\shop\templates\shop\contact.html:68 .\shop\templates\shop\contact.html:70
+msgid "shop"
+msgstr "Shop"
+
+#: .\shop\templates\shop\base.html:73 .\shop\templates\shop\contact.html:71
+#: .\shop\templates\shop\wishlist.html:12
+msgid "Wishlist"
+msgstr "Wishlist"
+
+#: .\shop\templates\shop\base.html:74 .\shop\templates\shop\contact.html:72
+msgid "Single Product"
+msgstr "Single Product"
+
+#: .\shop\templates\shop\base.html:75 .\shop\templates\shop\contact.html:73
+msgid "Cart"
+msgstr "Cart"
+
+#: .\shop\templates\shop\base.html:76 .\shop\templates\shop\contact.html:74
+msgid "Checkout"
+msgstr "Checkout"
+
+#: .\shop\templates\shop\base.html:79 .\shop\templates\shop\base.html:143
+#: .\shop\templates\shop\contact.html:77 .\shop\templates\shop\contact.html:179
+msgid "About"
+msgstr "About"
+
+#: .\shop\templates\shop\base.html:80 .\shop\templates\shop\blog.html:13
+#: .\shop\templates\shop\contact.html:78
+msgid "Blog"
+msgstr "Blog"
+
+#: .\shop\templates\shop\base.html:81 .\shop\templates\shop\base.html:161
+#: .\shop\templates\shop\contact.html:79 .\shop\templates\shop\contact.html:197
+msgid "Contact"
+msgstr "Contact"
+
+#: .\shop\templates\shop\base.html:103
+msgid "Subcribe to our Newsletter"
+msgstr "Subcribe to our Newsletter"
+
+#: .\shop\templates\shop\base.html:104
+msgid "Get e-mail updates about our latest shops and special offers"
+msgstr "Get e-mail updates about our latest shops and special offers"
+
+#: .\shop\templates\shop\base.html:142 .\shop\templates\shop\contact.html:178
+msgid "Shop"
+msgstr "Shop"
+
+#: .\shop\templates\shop\base.html:144 .\shop\templates\shop\contact.html:180
+msgid "Journal"
+msgstr "Journal"
+
+#: .\shop\templates\shop\base.html:145 .\shop\templates\shop\contact.html:92
+#: .\shop\templates\shop\contact.html:93 .\shop\templates\shop\contact.html:181
+msgid "ContactUs"
+msgstr "Contact Us"
+
+#: .\shop\templates\shop\base.html:151 .\shop\templates\shop\contact.html:187
+msgid "Help"
+msgstr "Help"
+
+#: .\shop\templates\shop\base.html:154 .\shop\templates\shop\contact.html:190
+msgid "Shipping Information"
+msgstr "Shipping Information"
+
+#: .\shop\templates\shop\base.html:155 .\shop\templates\shop\contact.html:191
+msgid "Returns &amp; Exchange"
+msgstr "Returns & Exchange"
+
+#: .\shop\templates\shop\base.html:156 .\shop\templates\shop\contact.html:192
+msgid "Terms &amp; Conditions"
+msgstr "Terms & Conditions"
+
+#: .\shop\templates\shop\base.html:157 .\shop\templates\shop\contact.html:193
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: .\shop\templates\shop\base.html:160 .\shop\templates\shop\contact.html:196
+msgid "FAQs"
+msgstr "FAQs"
+
+#: .\shop\templates\shop\base.html:183 .\shop\templates\shop\contact.html:219
+msgid "All rights reserved | This template is made with "
+msgstr "All rights reserved | This template is made with "
+
+#: .\shop\templates\shop\blog.html:30 .\shop\templates\shop\blog.html:46
+#: .\shop\templates\shop\blog.html:62 .\shop\templates\shop\blog.html:78
+#: .\shop\templates\shop\blog.html:94 .\shop\templates\shop\blog.html:110
+msgid "July 20, 2019"
+msgstr "July 20, 2019"
+
+#: .\shop\templates\shop\blog.html:31 .\shop\templates\shop\blog.html:47
+#: .\shop\templates\shop\blog.html:63 .\shop\templates\shop\blog.html:79
+#: .\shop\templates\shop\blog.html:95 .\shop\templates\shop\blog.html:111
+#: .\shop\templates\shop\blog.html:149 .\shop\templates\shop\blog.html:160
+#: .\shop\templates\shop\blog.html:171
+msgid "Admin"
+msgstr "Admin"
+
+#: .\shop\templates\shop\blog.html:32 .\shop\templates\shop\blog.html:48
+#: .\shop\templates\shop\blog.html:64 .\shop\templates\shop\blog.html:80
+#: .\shop\templates\shop\blog.html:96 .\shop\templates\shop\blog.html:112
+msgid "3"
+msgstr "3"
+
+#: .\shop\templates\shop\blog.html:34 .\shop\templates\shop\blog.html:50
+#: .\shop\templates\shop\blog.html:66 .\shop\templates\shop\blog.html:82
+#: .\shop\templates\shop\blog.html:98 .\shop\templates\shop\blog.html:114
+#: .\shop\templates\shop\blog.html:146 .\shop\templates\shop\blog.html:157
+#: .\shop\templates\shop\blog.html:168
+msgid "Even the all-powerful Pointing has no control about the blind texts"
+msgstr "Even the all-powerful Pointing has no control about the blind texts"
+
+#: .\shop\templates\shop\blog.html:35 .\shop\templates\shop\blog.html:51
+#: .\shop\templates\shop\blog.html:67 .\shop\templates\shop\blog.html:83
+#: .\shop\templates\shop\blog.html:99 .\shop\templates\shop\blog.html:115
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts"
+msgstr ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts."
+
+#: .\shop\templates\shop\blog.html:36 .\shop\templates\shop\blog.html:52
+#: .\shop\templates\shop\blog.html:68 .\shop\templates\shop\blog.html:84
+#: .\shop\templates\shop\blog.html:100 .\shop\templates\shop\blog.html:116
+msgid "Read more"
+msgstr "Read more"
+
+#: .\shop\templates\shop\blog.html:132
+msgid "Categories"
+msgstr "Categories"
+
+#: .\shop\templates\shop\blog.html:134 .\shop\templates\shop\index.html:101
+#: .\shop\templates\shop\shop.html:25
+msgid "Vegetables"
+msgstr "Vegetables"
+
+#: .\shop\templates\shop\blog.html:135 .\shop\templates\shop\blog.html:181
+#: .\shop\templates\shop\index.html:115 .\shop\templates\shop\shop.html:26
+msgid "Fruits"
+msgstr "Fruits"
+
+#: .\shop\templates\shop\blog.html:136 .\shop\templates\shop\index.html:125
+#: .\shop\templates\shop\shop.html:27
+msgid "Juices"
+msgstr "Juices"
+
+#: .\shop\templates\shop\blog.html:137 .\shop\templates\shop\index.html:130
+#: .\shop\templates\shop\shop.html:28
+msgid "Dried"
+msgstr "Dried"
+
+#: .\shop\templates\shop\blog.html:142
+msgid "Recent Blog"
+msgstr "Recent Blog"
+
+#: .\shop\templates\shop\blog.html:148 .\shop\templates\shop\blog.html:159
+#: .\shop\templates\shop\blog.html:170
+msgid "April 09, 2019"
+msgstr "April 09, 2019"
+
+#: .\shop\templates\shop\blog.html:179
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+#: .\shop\templates\shop\blog.html:182 .\shop\templates\shop\index.html:272
+#: .\shop\templates\shop\wishlist.html:126
+msgid "Tomatoes"
+msgstr "Tomatoes"
+
+#: .\shop\templates\shop\blog.html:183
+msgid "Mango"
+msgstr "Mango"
+
+#: .\shop\templates\shop\blog.html:184
+msgid "Apple"
+msgstr "Apple"
+
+#: .\shop\templates\shop\blog.html:185 .\shop\templates\shop\index.html:328
+msgid "Carrots"
+msgstr "Carrots"
+
+#: .\shop\templates\shop\blog.html:186
+msgid "Orange"
+msgstr "Orange"
+
+#: .\shop\templates\shop\blog.html:187
+msgid "Pepper"
+msgstr "Pepper"
+
+#: .\shop\templates\shop\blog.html:188
+msgid "Eggplant"
+msgstr "Eggplant"
+
+#: .\shop\templates\shop\blog.html:193
+msgid "Paragraph"
+msgstr "Paragraph"
+
+#: .\shop\templates\shop\blog.html:194
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, "
+"autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam "
+"vero culpa sapiente consectetur similique, inventore eos fugit cupiditate "
+"numquam!"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, "
+"autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam "
+"vero culpa sapiente consectetur similique, inventore eos fugit cupiditate "
+"numquam!"
+
+#: .\shop\templates\shop\cart.html:13
+msgid "_MyCart"
+msgstr "My Cart"
+
+#: .\shop\templates\shop\cart.html:29
+msgid "_Productname"
+msgstr "Product name"
+
+#: .\shop\templates\shop\cart.html:30 .\shop\templates\shop\index.html:390
+#: .\shop\templates\shop\wishlist.html:30
+msgid "price"
+msgstr "Price"
+
+#: .\shop\templates\shop\cart.html:31 .\shop\templates\shop\wishlist.html:31
+msgid "Quantity"
+msgstr "Quantity"
+
+#: .\shop\templates\shop\cart.html:32 .\shop\templates\shop\cart.html:134
+#: .\shop\templates\shop\wishlist.html:32
+msgid "Total"
+msgstr "Total"
+
+#: .\shop\templates\shop\cart.html:42 .\shop\templates\shop\index.html:213
+#: .\shop\templates\shop\wishlist.html:84
+msgid "Green Beans"
+msgstr "Green Beans"
+
+#: .\shop\templates\shop\cart.html:43 .\shop\templates\shop\cart.html:64
+#: .\shop\templates\shop\wishlist.html:43
+#: .\shop\templates\shop\wishlist.html:64
+#: .\shop\templates\shop\wishlist.html:85
+#: .\shop\templates\shop\wishlist.html:106
+#: .\shop\templates\shop\wishlist.html:127
+#: .\shop\templates\shop\wishlist.html:148
+msgid "Far far away, behind the word mountains, far from the countries"
+msgstr "Far far away, behind the word mountains, far from the Russia..."
+
+#: .\shop\templates\shop\cart.html:63 .\shop\templates\shop\index.html:241
+#: .\shop\templates\shop\wishlist.html:105
+msgid "Purple Cabbage"
+msgstr "Purple Cabbage"
+
+#: .\shop\templates\shop\cart.html:85
+msgid "Coupon Code"
+msgstr "Coupon Code"
+
+#: .\shop\templates\shop\cart.html:86
+msgid "Enter your coupon code if you have one"
+msgstr "Enter your coupon code if you have one"
+
+#: .\shop\templates\shop\cart.html:89
+msgid "Coupon code"
+msgstr "Coupon Code"
+
+#: .\shop\templates\shop\cart.html:94
+msgid "Apply Coupon"
+msgstr "Apply Coupon"
+
+#: .\shop\templates\shop\cart.html:98
+msgid "Estimate shipping and tax"
+msgstr "Estimate shipping and tax"
+
+#: .\shop\templates\shop\cart.html:99
+msgid "Enter your destination to get a shipping estimate"
+msgstr "Enter your destination to get a shipping estimate"
+
+#: .\shop\templates\shop\cart.html:102
+msgid "Country"
+msgstr "Country"
+
+#: .\shop\templates\shop\cart.html:106
+msgid "State/Province"
+msgstr "State/Province"
+
+#: .\shop\templates\shop\cart.html:110
+msgid "Zip/Postal Code"
+msgstr "Zip/Postal Code"
+
+#: .\shop\templates\shop\cart.html:115
+msgid "Estimate"
+msgstr "Estimate"
+
+#: .\shop\templates\shop\cart.html:119
+msgid "Cart Totals"
+msgstr "Cart Totals"
+
+#: .\shop\templates\shop\cart.html:121
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: .\shop\templates\shop\cart.html:125
+msgid "Delivery"
+msgstr "Delivery"
+
+#: .\shop\templates\shop\cart.html:129
+msgid "Discount"
+msgstr "Discount"
+
+#: .\shop\templates\shop\cart.html:138
+msgid "Proceed to Checkout"
+msgstr "Proceed to Checkout"
+
+#: .\shop\templates\shop\contact.html:105
+msgid "Address"
+msgstr "Address"
+
+#: .\shop\templates\shop\contact.html:110
+msgid "Phone"
+msgstr "Phone"
+
+#: .\shop\templates\shop\contact.html:120
+msgid "Website"
+msgstr "Website"
+
+#: .\shop\templates\shop\contact.html:204
+msgid "Have a Questions?"
+msgstr "Have a Questions?"
+
+#: .\shop\templates\shop\index.html:16
+msgid "We serve Fresh Vegestables &amp; Fruits"
+msgstr "We serve Fresh Vegestables & Fruits"
+
+#: .\shop\templates\shop\index.html:17 .\shop\templates\shop\index.html:32
+msgid "We deliver organic vegetables &amp; fruits"
+msgstr "We deliver organic vegetables & fruits"
+
+#: .\shop\templates\shop\index.html:18 .\shop\templates\shop\index.html:33
+msgid "View Details"
+msgstr "View Details"
+
+#: .\shop\templates\shop\index.html:31
+#, python-format
+msgid "100%% Fresh &amp; Organic Foods"
+msgstr "100%% Fresh & Organic Foods"
+
+#: .\shop\templates\shop\index.html:51
+msgid "Free Shipping"
+msgstr "Free Shipping"
+
+#: .\shop\templates\shop\index.html:52
+msgid "On order over $100"
+msgstr "On order over $100"
+
+#: .\shop\templates\shop\index.html:62
+msgid "Always Fresh"
+msgstr "Always Fresh"
+
+#: .\shop\templates\shop\index.html:63
+msgid "Product well package"
+msgstr "Product well package"
+
+#: .\shop\templates\shop\index.html:73
+msgid "Superior Quality"
+msgstr "Superior Quality"
+
+#: .\shop\templates\shop\index.html:74
+msgid "Quality Products"
+msgstr "Quality Products"
+
+#: .\shop\templates\shop\index.html:84
+msgid "Support"
+msgstr "Support"
+
+#: .\shop\templates\shop\index.html:85
+msgid "24/7 Support"
+msgstr "24/7 Support"
+
+#: .\shop\templates\shop\index.html:102
+msgid "Protect the health of every home"
+msgstr "Protect the health of every home"
+
+#: .\shop\templates\shop\index.html:103 .\shop\templates\shop\index.html:110
+msgid "_shop_now"
+msgstr "Shop Now"
+
+#: .\shop\templates\shop\index.html:142
+msgid "Featured Products"
+msgstr "Featured Product"
+
+#: .\shop\templates\shop\index.html:143
+msgid "A_OurProduct"
+msgstr "Our Products"
+
+#: .\shop\templates\shop\index.html:144
+msgid "Far far away, behind the word mountains, far from the Russia..."
+msgstr "Far far away, behind the word mountains, far from the Russia..."
+
+#: .\shop\templates\shop\index.html:157 .\shop\templates\shop\wishlist.html:42
+msgid "Bell Pepper"
+msgstr "Bell Pepper"
+
+#: .\shop\templates\shop\index.html:185 .\shop\templates\shop\wishlist.html:63
+msgid "Strawberry"
+msgstr "Strawberry"
+
+#: .\shop\templates\shop\index.html:300 .\shop\templates\shop\wishlist.html:147
+msgid "Brocolli"
+msgstr "Brocolli"
+
+#: .\shop\templates\shop\index.html:356
+msgid "Fruit Juice"
+msgstr "Fruit Juice"
+
+#: .\shop\templates\shop\index.html:386
+msgid "Best Price For You"
+msgstr "Best Price For You"
+
+#: .\shop\templates\shop\index.html:387
+msgid "Deal of the day"
+msgstr "Deal of the day"
+
+#: .\shop\templates\shop\index.html:388
+msgid "The best vegetables and fruits from the Italy and Spain"
+msgstr "The best vegetables and fruits from the Italy and Spain"
+
+#: .\shop\templates\shop\index.html:389
+msgid "Spinach"
+msgstr "Spinach"
+
+#: .\shop\templates\shop\index.html:390
+msgid "now $5 only"
+msgstr "now $5 only"
+
+#: .\shop\templates\shop\index.html:406
+msgid "Testimony"
+msgstr "Testimony"
+
+#: .\shop\templates\shop\index.html:407
+msgid "Our satisfied customer says"
+msgstr "Our satisfied customer says"
+
+# msgid ""
+#: .\shop\templates\shop\index.html:408
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in"
+msgstr ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts."
+
+# msgid ""
+#: .\shop\templates\shop\index.html:422 .\shop\templates\shop\index.html:436
+#: .\shop\templates\shop\index.html:450 .\shop\templates\shop\index.html:464
+#: .\shop\templates\shop\index.html:478
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts."
+msgstr ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts."
+
+#: .\shop\templates\shop\index.html:423
+msgid "Garreth Smith"
+msgstr "Garreth Smith"
+
+#: .\shop\templates\shop\index.html:424
+msgid "Marketing Manager"
+msgstr "Marketing Manager"
+
+#: .\shop\templates\shop\index.html:437
+msgid "Bill Gates"
+msgstr "Bill Gates"
+
+#: .\shop\templates\shop\index.html:438
+msgid "Interface Designer"
+msgstr "Interface Designer"
+
+#: .\shop\templates\shop\index.html:451
+msgid "David Boss"
+msgstr "David Boss"
+
+#: .\shop\templates\shop\index.html:452
+msgid "UI Designer"
+msgstr "UI Designer"
+
+#: .\shop\templates\shop\index.html:465
+msgid "Stephen King"
+msgstr "Stephen King"
+
+#: .\shop\templates\shop\index.html:466
+msgid "Web Developer"
+msgstr "Web Developer"
+
+#: .\shop\templates\shop\index.html:479
+msgid "John Snow"
+msgstr "John Snow"
+
+#: .\shop\templates\shop\index.html:480
+msgid "System Analyst"
+msgstr "System Analyst"
+
+#: .\shop\templates\shop\shop.html:12 .\shop\templates\shop\shop.html:13
+msgid "Products"
+msgstr "Products"
+
+#: .\shop\templates\shop\shop.html:24
+msgid "All"
+msgstr "All"
+
+#: .\shop\templates\shop\wishlist.html:13
+msgid "_MyWishlist"
+msgstr "My Wishlist"
+
+#: .\shop\templates\shop\wishlist.html:28
+msgid "_ProductList"
+msgstr "Product List"
+
+#~ msgid "Juice"
+#~ msgstr "Juices"
+
+#~ msgid "fruits"
+#~ msgstr "Fruits"
+
+#~ msgid "tomatoes"
+#~ msgstr "Tomatoes"
