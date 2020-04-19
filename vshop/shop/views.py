@@ -178,3 +178,12 @@ class BlogView(View):
         return render(request, 'shop/blog.html',  {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
                                                    'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
                                                    'contacts': CONTACTS, 'address': ADDRESS, 'a_bloge': a_bloge})
+
+
+class BlogSingleView(View):
+
+    def get(self, request):
+
+        return render(request, 'shop/blog-single.html', {'phone_number': PHONE_NUMBER, 'e_mail': E_MAIL,
+                                                      'daily_offer': DAILY_OFFER, 'title': TITLE, 'about': ABOUT,
+                                                      'contacts': CONTACTS, 'address': ADDRESS})

@@ -12,6 +12,7 @@ urlpatterns = [
     path('cart/', CartView.as_view(), name='cart'),
     path('contact/', ContactView.as_view(), name='contact'),
     path('blog/', BlogView.as_view(), name='blog'),
+    path('blog_single/', BlogSingleView.as_view(), name='blog_single')
 ]
 
 # urlpatterns = [
